@@ -1,0 +1,40 @@
+.container{
+    position: relative;
+
+}
+.center{
+    position: absolute;
+    top: 40%;
+    width: 90%;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+.topR{
+    position: absolute;
+    right: 12%;
+    top: 0%;
+    font-size: 28px;
+    color: white;
+}
+.topL{
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    font-size: 28px;
+    color: white;
+}
+.botR{
+    position: absolute;
+    right: 12%;
+    bottom: 3%;
+    font-size: 28px;
+    color: white;
+}
+.botL{
+    position: absolute;
+    left: 0%;
+    bottom: 3%;
+    color: white;
+    font-size: 28px;
+}

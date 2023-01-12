@@ -1,0 +1,13 @@
+.dms {
+    border: 1px solid black;
+
+    max-height: 80px;
+    overflow: scroll ;
+}
+#dun{
+    margin: 30px;
+    height: 50px;
+    border: 5px solid red;
+    overflow: auto;
+
+}

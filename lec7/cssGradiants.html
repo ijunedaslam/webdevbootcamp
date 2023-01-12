@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradiants</title>
+    <style>
+         .linear {
+            color: blueviolet;
+            border: 2px solid pink;
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to top right, pink, purple);
+            background-image: linear-gradient(90deg, orange, white, green 70%);
+         } 
+         .radial {
+            border: 2px solid red;
+            height: 300px;
+            width: 200px;
+            margin: 30px;
+            background-image: radial-gradient(circle, red, orange, pink, rgb(213, 220, 90));
+            background-image: radial-gradient(circle, red 10%, orange 20%, pink 30%, rgb(233, 103, 215) 40%);
+
+         }
+         .conic {
+            border: 2px solid red;
+            height: 200px;
+            width: 200px;
+            background-image: conic-gradient(from 10deg, white, pink, purple, orange, black);
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="linear">
+            yo hello!!
+        </div>
+
+        <div class="radial"></div>
+
+        <div class="conic"></div>
+    </div>
+</body>
+</html>

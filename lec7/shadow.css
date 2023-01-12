@@ -1,0 +1,11 @@
+h1 {
+    text-shadow: 3px 3px 3px red, 5px 5px 3px pink;
+}
+.box {
+    
+    background-color: ;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    box-shadow: 1px 1px 3px 2px pink;
+}
