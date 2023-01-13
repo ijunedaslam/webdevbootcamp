@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    background-color: pink;
+    align-content: flex-start;
+    flex-direction: column;
+}
+#box1{
+
+}
+#box2{
+
+}
+#BOX3{
+     align-self:stretch;
+}
+#box4{
+
+}
